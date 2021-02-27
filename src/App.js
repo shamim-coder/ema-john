@@ -1,12 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header/Header';
+import './App.css'
+import Shop from './components/Shop/Shop';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
+    <main>
+      <header id="header-section">
+        <Header />
+      </header>
+      <section id="shop">
+        <Shop />
+      </section>
+    </main>
   );
-}
+};
 
 export default App;

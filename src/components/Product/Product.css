@@ -1,0 +1,16 @@
+.product-item {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    padding: 15px;
+    margin: 15px;
+}
+.product-item:last-child {
+    border-bottom: none;
+}
+.product-img {
+    margin-right: 20px;
+}
+.pricing-ratting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
